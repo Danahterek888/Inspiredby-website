@@ -1,0 +1,15 @@
+.font{
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+.logo{
+    width:80px
+
+}
