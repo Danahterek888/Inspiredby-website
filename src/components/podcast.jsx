@@ -1,8 +1,18 @@
+import video from '../video/podcastvd.mp4'
 function Podcast({section}){
     return (
         <div>
             <section id="pod" className="section containers">
                <h2>Podcast</h2>
+               <div>
+                <video 
+                src={video}
+                type='video/mp4'
+                width='300'
+                controls>
+
+                </video>
+               </div>
                <p>Inspired By is a dynamic and engaging YouTube channel dedicated to presenting a powerful podcast designed specifically to help students, especially high schoolers, navigate the often overwhelming process of choosing a career path that truly fits who they are. Recognizing that every student is unique, with their own personality traits, interests, and strengths, the Inspired By podcast takes a personalized approach to career exploration and guidance. Rather than offering generic advice, the podcast dives deep into helping students understand themselves better so they can make confident, informed decisions about their futures.
 
 Each episode features fascinating, in-depth conversations with industry experts, professionals, and thought leaders from a wide range of fields—from technology and healthcare to arts and education. These guests share not only the day-to-day realities of their careers but also their personal journeys, the challenges they faced, and valuable insights that can only come from experience. By hearing directly from people who have walked the paths students are considering, listeners gain a clearer, more realistic picture of what different careers entail and what it takes to succeed.

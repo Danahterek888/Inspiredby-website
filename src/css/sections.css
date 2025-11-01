@@ -1,0 +1,31 @@
+.aboutusimg{
+     width: 100%;
+    max-width: 600px;
+
+}
+.aboutussec{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.parag{
+    width: 60%;
+}
+.scrollable{
+ display: flex;
+ overflow-x: auto;
+ gap: 16px;
+ padding: 10px;
+ scroll-behavior: smooth;
+}
+.Item{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 300px;
+    background-color: #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
