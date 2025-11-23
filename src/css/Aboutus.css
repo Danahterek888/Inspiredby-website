@@ -1,0 +1,19 @@
+.aboutusimg{
+     width: 100%;
+    max-width: 600px;
+
+}
+.aboutussec{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.parag{
+    width: 60%;
+}
+.font-color{
+    color: #ffcd00;
+}
+.font-width{
+    font-size:xx-large;
+}
