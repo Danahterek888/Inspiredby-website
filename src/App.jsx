@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import viteLogo from '/vite.svg'
+
 import {Routes,Route} from 'react-router-dom'
 import './assets/fonts/LeagueSpartan-Regular.ttf';
 import './index.css'
