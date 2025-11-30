@@ -5,11 +5,15 @@
     padding: 1rem 2rem;
     color: white;
     z-index: 1000;
-    background-color: #004643;
-    border-top: 1px solid black ;
+   background: linear-gradient(90deg, #235B5A, #3BBAC6);
+    
   
 }
 .link{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.link:hover{
+    color: #f6b911;
 }

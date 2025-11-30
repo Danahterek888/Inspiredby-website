@@ -1,0 +1,51 @@
+.font{
+    color: black;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+ display: flex;
+
+ gap: 80px;
+
+}
+.logo{
+    width:100px;
+ 
+}
+.background-color{
+  background: linear-gradient(90deg, #235B5A, #3BBAC6);
+}
+.padding{
+    padding: 2%;
+}
+.header-section{
+    background: linear-gradient(90deg, #235B5A, #3BBAC6);
+    color: white;
+    
+}
+.lamp{
+    width: 80px;
+    filter: drop-shadow(0 0 20px #f6b911);
+    
+    
+}
+
+.btn-services-button{
+ background-color: #FCCE09;
+ border: none;
+ padding: 12px 25px;
+ margin-bottom: 2%;
+ color:#004D4D;
+ transition: 0.3s;
+}
+.btn-services-button:hover{
+    background-color: #004D4D;
+    color: #f6b911;
+}

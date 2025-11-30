@@ -1,4 +1,4 @@
-import video from '../video/podcastvd.mp4'
+import video from '../../../assets/video/podcastvd.mp4'
 function Podcast({section}){
     return (
         <div>

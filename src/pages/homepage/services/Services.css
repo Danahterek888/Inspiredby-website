@@ -12,7 +12,7 @@
     flex: 0 0 auto;
     width: 300px;
     height: 400px;
-    background-color:#FFD43B;
+    background-color:#FCCE09;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -21,8 +21,8 @@
      scroll-snap-align: center;
 }
 .arrow {
-    background-color:#004643;
-    color: #FFD43B;
+    background-color:#004D4D;
+    color: #FCCE09;
     border: none;
     width: 50px;
     height: 50px;
@@ -34,7 +34,7 @@
           
 }
 .arrow:hover{
-    background-color: #ffcd00;
+    background-color:#FCCE09 ;
     color: yellow;
     transform:scale(1.1);
 }

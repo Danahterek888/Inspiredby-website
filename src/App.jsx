@@ -1,23 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import viteLogo from '/vite.svg'
 import {Routes,Route} from 'react-router-dom'
-import './fonts/LeagueSpartan-Regular.ttf';
+import './assets/fonts/LeagueSpartan-Regular.ttf';
 import './index.css'
 import './App.css'
-import './css/nav.css'
-import './css/footer.css'
-import './css/Aboutus.css'
-import './css/Services.css'
-import './css/Podcast.css'
-import './css/container.css'
-import './css/font.css'
+import './styles/nav.css'
+import './styles/footer.css'
+import './pages/homepage/aboutus/Aboutus.css'
+import './pages/homepage/services/Services.css'
+import './pages/homepage/our-podcast/Podcast.css'
+import './styles/container.css'
+import './styles/font.css'
 import Navbar from "./components/Navbar.jsx"
-import Podcast from "./components/podcast.jsx"
-import Services from "./components/Services.jsx"
-import Aboutus from "./components/Aboutus.jsx"
+import Podcast from "./pages/homepage/our-podcast/podcast.jsx"
+import Services from "./pages/homepage/services/Services.jsx"
+import Aboutus from "./pages/homepage/aboutus/Aboutus.jsx"
 import Footer from "./components/footer.jsx"
-import Contactus from "./components/Contactus.jsx"
+import Contactus from "./pages/contactus/Contactus.jsx"
 function App() {
   return ( 
     
@@ -39,8 +39,9 @@ function App() {
               <Podcast/>
             </div>
         </div>}/>
-
-        <Route path="/Contact" element="{<Contactus/>" />
+        
+        <Route path="/Contact"  element={<Contactus/>}/>
+        
         </Routes>
         
         </div>

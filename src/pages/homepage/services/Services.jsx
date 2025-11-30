@@ -1,18 +1,20 @@
-import { useRef, useState } from "react"
+      import { useRef,useState} from "react"
 function Services({section2}){
-    const scrollRef= useRef(null)
-    const ScrollLeftArrow = () => {
-        scrollRef.current.scrollBy({
-            left:-300,
-            behavior:'smooth'
-        })    
-    }
-    const ScrollRightArrow = () =>{
-        scrollRef.current.scrollBy({
-            left:500,
-            behavior:'smooth'
-        })
-    }
+ const scrollRef= useRef(null);
+const ScrollLeftArrow = () => {   
+    
+scrollRef.current.scrollBy({
+    left:-300,
+    behavior:'smooth'
+})    }
+const ScrollRightArrow = () =>{
+    scrollRef.current.scrollBy({
+        left:500,
+        behavior:'smooth'
+    })
+} 
+
+     
     return (
         <div>
             <section id="ser" className="section">

@@ -1,4 +1,4 @@
-import aboutusimg from '../photo/aboutusphoto.jpg'
+import aboutusimg from '../../../assets/photo/aboutusphoto.jpg'
 function Aboutus({section3}){
     return (
         <div>
