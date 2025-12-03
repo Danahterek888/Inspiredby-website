@@ -1,27 +1,13 @@
-      import { useRef,useState} from "react"
+import { useScroll } from './serviceshooks/useScroll.jsx'
 function Services({section2}){
- const scrollRef= useRef(null);
-const ScrollLeftArrow = () => {   
-    
-scrollRef.current.scrollBy({
-    left:-300,
-    behavior:'smooth'
-})    }
-const ScrollRightArrow = () =>{
-    scrollRef.current.scrollBy({
-        left:500,
-        behavior:'smooth'
-    })
-} 
-
-     
+      const { scrollRef, scrollLeftArrow, scrollRightArrow } = useScroll();
     return (
         <div>
             <section id="ser" className="section">
                <h2 className="font-color font-width">Services</h2>
                <div className="display">
                <div className="arrowpadding arrowpaddingright">
-                <button className="arrow " onClick={ScrollLeftArrow}>
+                <button className="arrow " onClick={scrollLeftArrow}>
                  ←
                </button>
                </div>
@@ -38,7 +24,7 @@ const ScrollRightArrow = () =>{
                  
                </div>
                <div className="arrowpadding arrowpaddingleft">
-               <button className="arrow " onClick={ScrollRightArrow}>
+               <button className="arrow " onClick={scrollRightArrow}>
                  →
                 </button>
                 </div>

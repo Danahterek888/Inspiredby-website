@@ -1,22 +1,20 @@
 import { useState } from 'react'
-
-
 import {Routes,Route} from 'react-router-dom'
 import './assets/fonts/LeagueSpartan-Regular.ttf';
 import './index.css'
 import './App.css'
-import './styles/nav.css'
-import './styles/footer.css'
+import './components/Navbar/nav.css'
+import './components/Footer/footer.css'
+import Navbar from "./components/Navbar/Navbar.jsx"
+import Footer from "./components/Footer/footer.jsx"
 import './pages/homepage/aboutus/Aboutus.css'
 import './pages/homepage/services/Services.css'
 import './pages/homepage/our-podcast/Podcast.css'
 import './styles/container.css'
 import './styles/font.css'
-import Navbar from "./components/Navbar.jsx"
 import Podcast from "./pages/homepage/our-podcast/podcast.jsx"
 import Services from "./pages/homepage/services/Services.jsx"
 import Aboutus from "./pages/homepage/aboutus/Aboutus.jsx"
-import Footer from "./components/footer.jsx"
 import Contactus from "./pages/contactus/Contactus.jsx"
 function App() {
   return ( 

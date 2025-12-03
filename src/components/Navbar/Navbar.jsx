@@ -1,5 +1,5 @@
-import logo from '../assets/photo/logo2.png'
-import lamp from '../assets/photo/lamp1.png'
+import logo from '../../assets/photo/logo2.png'
+import lamp from '../../assets/photo/lamp1.png'
 import {Link} from 'react-router-dom'
 function Navbar({nav}){
     return (
