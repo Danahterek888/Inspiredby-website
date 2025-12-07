@@ -6,12 +6,10 @@ Overview
 This project was created alongside a YouTube series that walks through building custom hooks, routes, and reusable structures.
 Every part of this project includes sample code showing how to: 
 
-* Build a modern, responsive frontend using React and Vite 
-* Architect a scalable folder structure with reusable UI components 
-* Present structured service data and methodology steps using dynamic React components
-* Validate and handle form submissions through API or email services 
-* Implement client-side routing with React Router for smooth navigation
-* Improve performance through code splitting, image optimization, and caching  
+* 1-on-1 coaching sessions with online booking
+* Customized programs for orginizations
+* Gamified learing journey
+* Interractive competency framework  
 
 
 ## Demo : 
@@ -28,7 +26,7 @@ Navigate into the project folder
 1. Clone this project
 
 2. Navigate to the project folder  
-  cd project-name
+  cd inspiredby-website
 
 3. Install Dependencies 
    npm install
