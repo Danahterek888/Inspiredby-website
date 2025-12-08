@@ -18,39 +18,39 @@ Every part of this project includes sample code showing how to:
 ![Project Flow](./docs/flow-diagram.gif)
 
 ## Tech Stack
-** Frontend** 
+* * Frontend** 
 - React 18
 - Vite
 - React Router 
 
-**Development Tools : ** 
+* * Development Tools : ** 
 - ESLint
 - npm
 
 ## Features
 
--Responsive design for all devices
--Dynamic service presentation with competency-based methodology
--Client-side routing with React Router
--Reusable component architecture
--Form validation and submission handling
--Custom React hooks for enhanced functionality
--Backend integration (coming soon)
--Service image gallery (coming soon)
+- Responsive design for all devices
+- Dynamic service presentation with competency-based methodology
+- Client-side routing with React Router
+- Reusable component architecture
+- Form validation and submission handling
+- Custom React hooks for enhanced functionality
+- Backend integration (coming soon)
+- Service image gallery (coming soon)
 
 
-## Project Structure 
-├── src/
-│   ├── assets/         # images and global css
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page components
-│   ├── styles/         # Customized css
-│   ├── utils/          #Functions 
-│   └── App.jsx
-├── public/
-├── tests/              # Component Testing
-├── docs/               
-└── README.md 
+ ## Project Structure 
+ ├── src/
+ │   ├── assets/         # images and global css
+ │   ├── components/     # Reusable UI components
+ │   ├── pages/          # Page components
+ │   ├── styles/         # Customized css
+ │   ├── utils/          #Functions 
+ │   └── App.jsx
+ ├── public/
+ ├── tests/              # Component Testing
+ ├── docs/               
+ └── README.md 
 
 ## Installation 
 
