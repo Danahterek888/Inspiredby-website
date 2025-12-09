@@ -23,7 +23,7 @@ Every part of this project includes sample code showing how to:
 * * Vite
 * * React Router 
 
-* * Development Tools :  
+* Development Tools :  
 * * ESLint
 * * npm
 
