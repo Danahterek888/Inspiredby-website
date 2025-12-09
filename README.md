@@ -59,7 +59,7 @@ Every part of this project includes sample code showing how to:
 - npm (v9 or higher )
 
 ### Steps
-Clone repository bash git clone https://github.com/Danahterek888/Inspiredby-website  
+git clone https://github.com/Danahterek888/Inspiredby-website
 1. Navigate to the project folder 
 cd inspiredby-website
 2. Install Dependencies 
