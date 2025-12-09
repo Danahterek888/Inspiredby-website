@@ -18,12 +18,12 @@ Every part of this project includes sample code showing how to:
 ![Project Flow](./docs/flow-diagram.gif)
 
 ## Tech Stack
-* * Frontend** 
+* * Frontend 
 - React 18
 - Vite
 - React Router 
 
-* * Development Tools : ** 
+* * Development Tools :  
 - ESLint
 - npm
 
