@@ -40,17 +40,17 @@ Every part of this project includes sample code showing how to:
 
 
  ## Project Structure 
- ├── src/
- │   ├── assets/         # images and global css
- │   ├── components/     # Reusable UI components
- │   ├── pages/          # Page components
- │   ├── styles/         # Customized css
- │   ├── utils/          #Functions 
- │   └── App.jsx
- ├── public/
- ├── tests/              # Component Testing
- ├── docs/               
- └── README.md 
+- src/
+-  assets/         # images and global css
+- components/     # Reusable UI components
+-  pages/          # Page components
+-  styles/         # Customized css
+-  utils/          #Functions 
+-  App.jsx
+-  public/
+-  tests/              # Component Testing
+-  docs/               
+-  README.md 
 
 ## Installation 
 
