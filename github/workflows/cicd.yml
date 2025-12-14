@@ -1,11 +1,12 @@
- name: CI/CD Pipeline for React App
- 
- on:
+name: CI/CD Pipeline for React App
+
+on:
   push:
     branches: [ Nadine ]
   pull_request:
     branches: [ Nadine ]
-    jobs:
+
+jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
