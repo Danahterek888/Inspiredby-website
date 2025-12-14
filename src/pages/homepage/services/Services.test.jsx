@@ -26,7 +26,7 @@ describe("Services component", () => {
     const rightArrow = screen.getByTestId("scrollRightArrow");
     expect(leftArrow).toBeInTheDocument();
     expect(rightArrow).toBeInTheDocument();
-
+      scrollContainer.scrollBy = vi.fn();
     // Mock scrollBy because jsdom doesn't implement it
     const scrollByMock = vi.fn();
     const scrollContainer = screen.getByTestId("scroll-container");

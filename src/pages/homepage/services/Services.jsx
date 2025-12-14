@@ -7,11 +7,11 @@ function Services({section2}){
                <h2 className="font-color font-width">Services</h2>
                <div className="display">
                <div className="arrowpadding arrowpaddingright">
-                <button className="arrow " onClick={scrollLeftArrow}>
+                <button className="arrow "  data-testid="scrollLeftArrow" onClick={scrollLeftArrow}>
                  ←
                </button>
                </div>
-               <div  ref={scrollRef} className="scrollable">
+               <div  ref={scrollRef} data-testid="scroll-container" className="scrollable">
                   <div className="Item">Item1</div>
                   <div className="Item">Item2</div>
                   <div className="Item">Item3</div>
@@ -24,7 +24,7 @@ function Services({section2}){
                  
                </div>
                <div className="arrowpadding arrowpaddingleft">
-               <button className="arrow " onClick={scrollRightArrow}>
+               <button className="arrow " data-testid="scrollRightArrow" onClick={scrollRightArrow}>
                  →
                 </button>
                 </div>
