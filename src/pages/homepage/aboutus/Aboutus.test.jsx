@@ -1,4 +1,7 @@
 // src/components/Aboutus/Aboutus.test.jsx
+// src/setupTests.js (or at the top of each test file)
+import '@testing-library/jest-dom';
+
 import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";

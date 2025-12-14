@@ -1,4 +1,7 @@
 // src/components/Navbar/Navbar.test.jsx
+// src/setupTests.js (or at the top of each test file)
+import '@testing-library/jest-dom';
+
 import React from "react"; // needed to avoid "React is not defined"
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";

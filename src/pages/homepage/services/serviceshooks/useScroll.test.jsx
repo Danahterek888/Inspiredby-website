@@ -1,4 +1,7 @@
 // src/serviceshooks/useScroll.test.jsx
+// src/setupTests.js (or at the top of each test file)
+import '@testing-library/jest-dom';
+
 import React from "react";
 import { describe, it, expect, vi } from "vitest";
 import { renderHook } from "@testing-library/react";

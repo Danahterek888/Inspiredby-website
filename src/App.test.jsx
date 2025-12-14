@@ -1,4 +1,7 @@
 // src/App.test.jsx
+// src/setupTests.js (or at the top of each test file)
+import '@testing-library/jest-dom';
+
 import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
@@ -8,8 +11,8 @@ describe("App component", () => {
   it("renders without crashing", () => {
     render(<App />);
 
-    // Replace "Welcome" with text that actually appears in your App
-    const element = screen.getByText(/Navbar/i);
-    expect(element).toBeInTheDocument();
+    // Check that some visible text from Navbar or App is rendered
+    const heading = screen.getByText(/Your future isn’t a guess/i);
+    expect(heading).toBeInTheDocument();
   });
 });
