@@ -4,4 +4,5 @@ export default defineConfig({
   test: {
     environment: 'jsdom', // <--- enables DOM for tests
   },
+   plugins: [react()],
 });
