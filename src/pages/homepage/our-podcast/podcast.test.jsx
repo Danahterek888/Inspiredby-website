@@ -1,7 +1,8 @@
 // src/components/Podcast/Podcast.test.jsx
+import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import Podcast from "./ Podcast";
+import Podcast from "./podcast";
 
 describe("Podcast component", () => {
   it("renders heading, video, and paragraph", () => {

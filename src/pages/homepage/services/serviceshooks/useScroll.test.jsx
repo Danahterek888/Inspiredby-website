@@ -1,4 +1,5 @@
 // src/serviceshooks/useScroll.test.jsx
+import React from "react";
 import { describe, it, expect, vi } from "vitest";
 import { renderHook } from "@testing-library/react";
 import { useScroll } from "./useScroll";

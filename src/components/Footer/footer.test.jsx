@@ -1,7 +1,8 @@
 // src/components/Footer/Footer.test.jsx
+import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import Footer from "./ Footer";
+import Footer from "./footer";
 
 describe("Footer component", () => {
   it("renders all sections with headings and paragraphs", () => {

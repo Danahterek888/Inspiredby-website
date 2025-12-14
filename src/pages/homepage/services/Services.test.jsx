@@ -1,4 +1,5 @@
 // src/components/Services/Services.test.jsx
+import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import Services from "./Services";
