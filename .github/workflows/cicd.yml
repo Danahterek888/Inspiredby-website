@@ -36,7 +36,7 @@ jobs:
 
       # 6️⃣ Continuous Delivery: save build artifact
       - name: Save build artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: react-build
           path: build/
