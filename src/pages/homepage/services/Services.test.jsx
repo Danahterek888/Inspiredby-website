@@ -22,8 +22,8 @@ describe("Services component", () => {
     expect(item3).toBeInTheDocument();
 
     // Check the arrow buttons using test ids
-    const leftArrow = screen.getByTestId("scroll-left");
-    const rightArrow = screen.getByTestId("scroll-right");
+    const leftArrow = screen.getByTestId("scrollLeftArrow");
+    const rightArrow = screen.getByTestId("scrollRightArrow");
     expect(leftArrow).toBeInTheDocument();
     expect(rightArrow).toBeInTheDocument();
 
