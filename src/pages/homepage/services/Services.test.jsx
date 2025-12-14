@@ -1,9 +1,7 @@
 // src/components/Services/Services.test.jsx
-// src/setupTests.js (or at the top of each test file)
 import '@testing-library/jest-dom';
-
 import React from "react";
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import Services from "./Services";
 
@@ -11,8 +9,8 @@ describe("Services component", () => {
   it("renders heading, items, and arrows", () => {
     render(<Services />);
 
-    // Check the heading
-    const heading = screen.getByText(/services/i);
+    // Check the heading using role for clarity
+    const heading = screen.getByRole("heading", { name: /services/i });
     expect(heading).toBeInTheDocument();
 
     // Check some of the scrollable items
@@ -23,14 +21,22 @@ describe("Services component", () => {
     expect(item2).toBeInTheDocument();
     expect(item3).toBeInTheDocument();
 
-    // Check the arrow buttons
-    const leftArrow = screen.getByText(/←/i);
-    const rightArrow = screen.getByText(/→/i);
+    // Check the arrow buttons using test ids
+    const leftArrow = screen.getByTestId("scroll-left");
+    const rightArrow = screen.getByTestId("scroll-right");
     expect(leftArrow).toBeInTheDocument();
     expect(rightArrow).toBeInTheDocument();
 
-    // Optional: simulate clicks to ensure buttons are clickable
+    // Mock scrollBy because jsdom doesn't implement it
+    const scrollByMock = vi.fn();
+    const scrollContainer = screen.getByTestId("scroll-container");
+    scrollContainer.scrollBy = scrollByMock;
+
+    // Simulate clicks
     fireEvent.click(leftArrow);
     fireEvent.click(rightArrow);
+
+    // Check if scrollBy was called
+    expect(scrollByMock).toHaveBeenCalled();
   });
 });

@@ -8,8 +8,9 @@ function Podcast({section}){
                 <video className='video'
                 src={video}
                 type='video/mp4'
+                data-testid="podcast-video" // <-- add this
                 
-                controls>
+                >
 
                 </video>
                </div>

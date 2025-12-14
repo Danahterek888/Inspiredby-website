@@ -1,22 +1,20 @@
 // src/components/Podcast/Podcast.test.jsx
-// src/setupTests.js (or at the top of each test file)
 import '@testing-library/jest-dom';
-
 import React from "react";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import Podcast from "./podcast";
+import Podcast from "./podcast"; // make sure the filename matches casing
 
 describe("Podcast component", () => {
   it("renders heading, video, and paragraph", () => {
     render(<Podcast />);
 
     // Check the heading
-    const heading = screen.getByText(/podcast/i);
+    const heading = screen.getByRole("heading", { name: /podcast/i });
     expect(heading).toBeInTheDocument();
 
-    // Check the video element
-    const video = screen.getByRole("video");
+    // Check the video element using test id
+    const video = screen.getByTestId("podcast-video");
     expect(video).toBeInTheDocument();
 
     // Check the paragraph text (partial match is fine)
