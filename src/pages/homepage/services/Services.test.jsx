@@ -31,7 +31,6 @@ describe("Services component", () => {
     const scrollByMock = vi.fn();
     const scrollContainer = screen.getByTestId("scroll-container");
     scrollContainer.scrollBy = scrollByMock;
-     scrollContainer.scrollBy = vi.fn();
 
     // Simulate clicks
     fireEvent.click(leftArrow);
